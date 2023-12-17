@@ -26,9 +26,36 @@ body {
     margin-bottom: 0px;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+    margin-left: 0px;
+    /* optional: adds some space between the buttons */
+}
+
+.btn {
+    background-color: #022b72;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #063483;
+}
+
 .gif_container {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
