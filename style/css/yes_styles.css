@@ -3,20 +3,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #F8C8DC;
+    background-color: #2551a3;
 }
 
 /* Position the "No" button absolutely within body */
-#noButton {
-    position: absolute;
-    margin-left: 150px;
-    transition: 0.5s;
-    /* Smooth movement */
-}
 
-#yesButton {
+#continueButton {
     position: absolute;
-    margin-right: 150px;
+    margin-right: 650px;
     /* Smooth movement */
 }
 
@@ -45,13 +39,13 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 500px;
+    margin-left: 0px;
     /* optional: adds some space between the buttons */
 }
 
 .btn {
-    background-color: #FFB6C1;
+    background-color: #022b72;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -65,7 +59,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #FAF9F6;
+    background-color: #063483;
 }
 
 .gif_container {
