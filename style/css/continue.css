@@ -16,6 +16,16 @@ body {
     margin-bottom: 0px;
 }
 
+.text {
+    font-family: 'Nunito';
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
 .gif_container {
     display: flex;
     justify-content: center;
